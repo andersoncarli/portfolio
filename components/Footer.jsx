@@ -1,6 +1,4 @@
 import { useRouter } from 'next/router'
-import useTranslation from "next-translate/useTranslation";
-// import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 export default function Footer({ children }) {
   let router = useRouter();
