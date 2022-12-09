@@ -1,18 +1,49 @@
 {
-  "name": "dash5",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Anderson's Portfolio",
+  "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snoopter/portfolio.git"
+  },
+  "keywords": [
+    "bigdata",
+    "data-analysis"
+  ],
+  "author": "andersonrc@proton.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snoopter/snoopter/issues"
+  },
+  "homepage": "https://github.com/snoopter/snoopter#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "flag-icons": "^6.6.6",
+    "i18next": "^22.1.4",
+    "mongodb": "^4.12.0",
     "next": "13.0.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next-translate": "^1.6.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "eslint": "^8.27.0",
+    "eslint-config-next": "13.0.2",
+    "typescript": "4.8.4"
   }
 }
