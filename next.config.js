@@ -2,13 +2,6 @@
 const nextTranslate = require("next-translate");
 
 module.exports = {
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
-  ...nextTranslate(),
-
   // https://blog.bitsrc.io/html-pages-in-nextjs-using-rewrites-bc5f56ea3ed
   rewrites: async () => [
     {
@@ -25,11 +18,17 @@ module.exports = {
       destination: '/portfolio/index.html',
     },
     {
-      source: '/admin',
+      source: '/admin/',
       destination: '/admin/index.html',
-
     },
   ],
+
+  // eslint: {
+  //   // Warning: This allows production builds to successfully complete even if
+  //   // your project has ESLint errors.
+  //   ignoreDuringBuilds: true,
+  // },
+  ...nextTranslate(),
 
   // reactStrictMode: true, // problems with useEffect & useLayoutEffect
   swcMinify: true,
