@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Home() {
   const { t } = useTranslation()
   return (<>
@@ -6,7 +8,7 @@ export default function Home() {
     <header className="masthead bg-primary text-white text-center">
       {<div className="container d-flex align-items-center flex-column">
         {/* Masthead Avatar Image */}
-        <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+        <Image className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
         {/* Masthead Heading */}
         <h1 className="masthead-heading text-uppercase mb-0">Anderson Carli</h1>
 
@@ -54,7 +56,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
             </div>
           </div>
 
@@ -64,7 +66,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
             </div>
           </div>
 
@@ -74,7 +76,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
             </div>
           </div>
 
@@ -84,7 +86,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
             </div>
           </div>
 
@@ -94,7 +96,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
             </div>
           </div>
 
@@ -104,7 +106,7 @@ export default function Home() {
               <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
               </div>
-              <img className="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+              <Image className="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
             </div>
           </div>
         </div>
@@ -246,7 +248,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
@@ -282,7 +284,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
@@ -318,7 +320,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
@@ -354,7 +356,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
@@ -390,7 +392,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
@@ -427,7 +429,7 @@ export default function Home() {
                     <div className="divider-custom-line"></div>
                   </div>
                   {/* Portfolio Modal - Image*/}
-                  <img className="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                  <Image className="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
                   {/* Portfolio Modal - Text*/}
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
                     nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
