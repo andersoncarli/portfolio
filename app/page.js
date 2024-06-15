@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <h1>Anderson`s Portfolio </h1>
-      </div>
-    </main>
+    <section className="text-center py-20">
+      <h1 className="text-5xl font-bold">Hello, I&apos;m Anderson</h1>
+      <p className="mt-4 text-lg">A skilled software engineer specializing in Next.js, Tailwind CSS, and NestJS.</p>
+      <img src="/profile-pic.jpg" alt="Profile Picture" className="rounded-full mt-8 mx-auto w-48 h-48" />
+    </section>
   );
 }
