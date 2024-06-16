@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+h2 {
+  @apply text-green-600 text-4xl font-bold mb-4;
+  color: blueviolet;
+}
+
+className="text-4xl font-bold mb-4"
+
+p {
+  @apply text-gray-800 text-lg leading-relaxed;
+  color: red;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(26, 32, 44, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(203, 213, 224, var(--tw-text-opacity));
+  }
+}
+
